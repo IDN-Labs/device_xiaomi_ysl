@@ -191,6 +191,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# DPM
+PRODUCT_PACKAGES += \
+    libshim_dpmframework
+
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \
