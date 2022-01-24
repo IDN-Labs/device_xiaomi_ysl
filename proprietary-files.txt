@@ -477,6 +477,9 @@ vendor/lib/libXMFD_AgeGender.so
 vendor/lib/libois_lc898122.so
 -vendor/lib/libarcsoft_beautyshot_exin.so
 
+# DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
+product/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
+
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_dcrf.so
