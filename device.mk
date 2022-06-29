@@ -50,5 +50,9 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.ysl.rc
 
+# Enable Google Go feature support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/ysl/ysl-vendor.mk)
