@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ysl.mk
+    $(LOCAL_DIR)/arrow_ysl.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_ysl-user \
+    arrow_ysl-userdebug \
+    arrow_ysl-eng
