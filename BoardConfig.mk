@@ -32,7 +32,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_SUPPORT_HAL1 := false
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
