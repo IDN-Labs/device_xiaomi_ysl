@@ -30,7 +30,6 @@ TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 #RR-Stuff
-RR_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
