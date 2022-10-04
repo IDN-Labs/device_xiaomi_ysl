@@ -14,5 +14,14 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="rr_maintainer_summary">Tushar Bharti</string>
+    <string name="rr_maintainer_summary">R.A.P (@OhMyVenyx)</string>
+
+    <string name="stylish_contorl_font_family_subtitle">sans-serif-medium</string>
+    <string name="rom_name">RR Milestone</string>
+    <string name="battery_message">Li-Po 3080mAh</string>
+    <string name="cpu_message">Octa-core 2.0 GHz</string>
+    <string name="camera_message">12MP+5MP Dual Camera</string>
+    <string name="display_message">IPS LCD HD 5.99 Screen</string>
+    <string name="rom_message">Adreno 506</string>
+    <string name="soc_message">Qualcomm Snapdragon™ 625</string>
 </resources>
