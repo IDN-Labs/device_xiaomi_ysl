@@ -27,9 +27,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 
-# Inherit from custom vendor
-$(call inherit-product, vendor/MiuiCamera/config.mk)
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
 PRODUCT_NAME := qassa_ysl

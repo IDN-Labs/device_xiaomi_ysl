@@ -203,6 +203,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# GoogleCameraGo
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
