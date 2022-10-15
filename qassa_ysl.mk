@@ -21,20 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common RR stuff.
-
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit some common #keepQASSA configurations.
+$(call inherit-product, vendor/qassa/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_GAPPS_ARCH := arm64
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-#RR-Stuff
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := rr_ysl
+PRODUCT_NAME := qassa_ysl
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
 PRODUCT_MANUFACTURER := Xiaomi
