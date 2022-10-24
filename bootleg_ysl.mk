@@ -21,15 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common #keepQASSA configurations.
-$(call inherit-product, vendor/qassa/config/common_full_phone.mk)
+# Inherit some common Bootleggers configurations.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := qassa_ysl
+PRODUCT_NAME := bootleg_ysl
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
 PRODUCT_MANUFACTURER := Xiaomi
@@ -39,9 +37,5 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-PRIVATE_BUILD_DESC="ysl-user 9 PKQ1.181021.001 V10.3.4.0.PEFMIXM release-keys" \
 PRODUCT_NAME="ysl" \
 TARGET_DEVICE="ysl"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" 

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/qassa_ysl.mk
+     $(LOCAL_DIR)/bootleg_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-     qassa_ysl-user \
-     qassa_ysl-userdebug \
-     qassa_ysl-eng
+     bootleg_ysl-user \
+     bootleg_ysl-userdebug \
+     bootleg_ysl-eng
