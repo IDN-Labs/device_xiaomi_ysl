@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_ysl.mk
+    $(LOCAL_DIR)/nad_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_ysl-user \
-    evolution_ysl-userdebug \
-    evolution_ysl-eng
+    nad_ysl-user \
+    nad_ysl-userdebug \
+    nad_ysl-eng
