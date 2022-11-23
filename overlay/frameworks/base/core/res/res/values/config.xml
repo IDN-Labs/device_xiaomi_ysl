@@ -699,4 +699,7 @@
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
 
+    <!-- Qassa Music Lyrics -->
+    <bool name="config_enable_statusbar_lyric">true</bool>
+
 </resources>
