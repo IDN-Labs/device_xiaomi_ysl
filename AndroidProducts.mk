@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/qassa_ysl.mk
+     $(LOCAL_DIR)/nad_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-     qassa_ysl-user \
-     qassa_ysl-userdebug \
-     qassa_ysl-eng
+     nad_ysl-user \
+     nad_ysl-userdebug \
+     nad_ysl-eng
