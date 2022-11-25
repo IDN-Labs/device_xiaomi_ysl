@@ -50,9 +50,9 @@
 
     </PreferenceCategory>
 	
-    <!--PreferenceCategory
-        android:key="selinux"
-        android:title="@string/selinux_category">
+	<PreferenceCategory
+    android:key="selinux"
+    android:title="@string/selinux_category">
 
     <Preference
         android:summary="@string/selinux_explanation_summary"
@@ -72,7 +72,7 @@
         android:defaultValue="true"
         android:icon="@drawable/ic_power" />
 
-    </PreferenceCategory-->
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="notification_led"
@@ -91,12 +91,12 @@
         android:key="display"
         android:title="@string/display_title">
 
-        <!--SwitchPreference
+        <SwitchPreference
             android:key="fps_info"
             android:icon="@drawable/ic_fps_info"
             android:title="@string/fps_info_title"
             android:summary="@string/fps_info_summary"
-            android:persistent="true" /-->
+            android:persistent="true" />
 
         <Preference
             android:key="device_kcal"
