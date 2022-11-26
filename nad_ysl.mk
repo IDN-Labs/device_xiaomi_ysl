@@ -37,9 +37,5 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-PRIVATE_BUILD_DESC="ysl-user 9 PKQ1.181021.001 V10.3.4.0.PEFMIXM release-keys" \
 PRODUCT_NAME="ysl" \
 TARGET_DEVICE="ysl"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" 
