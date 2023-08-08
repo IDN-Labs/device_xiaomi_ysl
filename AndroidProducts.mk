@@ -14,5 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/p404_ysl.mk
+     $(LOCAL_DIR)/xdroid_ysl.mk
+
+COMMON_LUNCH_CHOICES := \
+    xdroid_ysl-user \
+    xdroid_ysl-userdebug \
+    xdroid_ysl-eng
 
