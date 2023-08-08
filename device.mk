@@ -367,7 +367,8 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     ims-ext-common_system \
     qti_telephony_utils.xml \
-    telephony-ext
+    telephony-ext \
+    services-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext \
