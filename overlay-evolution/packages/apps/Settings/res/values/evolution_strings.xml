@@ -5,11 +5,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- ROM maintainer name -->
-    <string name="build_maintainer_summary" translatable="false">Rahmad Adi Pratama
-(@OhMyVenyx)</string>
+    <string name="build_maintainer_summary" translatable="false">Rahmad Adi Pratama.</string>
 
-    <!-- Build maintainer telegram URL -->
-    <string name="build_maintainer_telegram" translatable="false">https://t.me/OhMyVenyx</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://saweria.co/OhMyVenyx</string>
 
 </resources>
