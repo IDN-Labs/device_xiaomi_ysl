@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_ysl.mk
+    $(LOCAL_DIR)/kasumi_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_ysl-user \
-    corvus_ysl-userdebug \
-    corvus_ysl-eng
+    kasumi_ysl-user \
+    kasumi_ysl-userdebug \
+    kasumi_ysl-eng
