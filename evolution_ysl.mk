@@ -20,6 +20,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_MINI_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_APERTURE_CAMERA := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
